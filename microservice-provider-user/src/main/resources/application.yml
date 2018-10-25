@@ -2,7 +2,7 @@ server:
   port: 8000
 spring:
   application:
-    name: microservice-provider-user
+    name: microservice-provider-user    #注册到Eureka Server上的应用名称
   jpa:
     generate-ddl: false
     show-sql: true
