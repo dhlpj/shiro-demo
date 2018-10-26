@@ -11,7 +11,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @SpringBootApplication
 @EnableEurekaServer
-//@EnableEurekaClient 只适用于服务发现组件Eureka,不能够针对的
+//@EnableEurekaClient 只适用于服务发现组件Eureka
 public class EurekaApplication {
   public static void main(String[] args) {
     SpringApplication.run(EurekaApplication.class, args);
