@@ -14,7 +14,7 @@ public class MovieController {
   private UserFeignClient userFeignClient;
 
   @GetMapping("/user/{id}")
-  public User findById(@PathVariable Long id) {
+  public User findById(@PathVariable("id") Long id) {
 	  return userFeignClient.findById(id);
   }
 }

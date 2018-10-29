@@ -9,9 +9,9 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-@EnableDiscoveryClient
 @SpringBootApplication
-@EnableCircuitBreaker
+@EnableDiscoveryClient
+//@EnableCircuitBreaker
 @EnableHystrix
 public class ConsumerMovieApplication {
   @Bean
